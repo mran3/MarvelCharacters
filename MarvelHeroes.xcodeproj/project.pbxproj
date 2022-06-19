@@ -55,7 +55,7 @@
 		86350F55278BF208007800B9 /* RideDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailViewController.swift; sourceTree = "<group>"; };
 		86350F58278C0790007800B9 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		86350F5B278CBAFC007800B9 /* TitleInfoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleInfoTableCell.swift; sourceTree = "<group>"; };
-		866AECD827D415F50021CCF0 /* Dragon RidersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dragon RidersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		866AECD827D415F50021CCF0 /* MarvelHeroesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelHeroesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		866AECE127D418100021CCF0 /* JSONParser_UnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser_UnitTests.swift; sourceTree = "<group>"; };
 		866AECE827D443E90021CCF0 /* MockURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
 		866AECE927D443E90021CCF0 /* JSONParser_UnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser_UnitTests.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		86FEED7E280F8DE100FDC49E /* MockListFlightsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockListFlightsPresenter.swift; sourceTree = "<group>"; };
 		8A12C0D7246ED95C00316518 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		8A151A442465D7B4000FBA74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8A1BCBF9245F67C300AB1E0B /* Dragon Riders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dragon Riders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1BCBF9245F67C300AB1E0B /* MarvelHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1BCBFC245F67C300AB1E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A1BCBFE245F67C300AB1E0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8A1BCC08245F67C400AB1E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -282,8 +282,8 @@
 		8A1BCBFA245F67C300AB1E0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A1BCBF9245F67C300AB1E0B /* Dragon Riders.app */,
-				866AECD827D415F50021CCF0 /* Dragon RidersTests.xctest */,
+				8A1BCBF9245F67C300AB1E0B /* MarvelHeroes.app */,
+				866AECD827D415F50021CCF0 /* MarvelHeroesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -317,9 +317,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		866AECD727D415F50021CCF0 /* Dragon RidersTests */ = {
+		866AECD727D415F50021CCF0 /* MarvelHeroesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 866AECDE27D415F50021CCF0 /* Build configuration list for PBXNativeTarget "Dragon RidersTests" */;
+			buildConfigurationList = 866AECDE27D415F50021CCF0 /* Build configuration list for PBXNativeTarget "MarvelHeroesTests" */;
 			buildPhases = (
 				866AECD427D415F50021CCF0 /* Sources */,
 				866AECD527D415F50021CCF0 /* Frameworks */,
@@ -330,14 +330,14 @@
 			dependencies = (
 				866AECDD27D415F50021CCF0 /* PBXTargetDependency */,
 			);
-			name = "Dragon RidersTests";
+			name = MarvelHeroesTests;
 			productName = "Dragon RidersTests";
-			productReference = 866AECD827D415F50021CCF0 /* Dragon RidersTests.xctest */;
+			productReference = 866AECD827D415F50021CCF0 /* MarvelHeroesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8A1BCBF8245F67C300AB1E0B /* Dragon Riders */ = {
+		8A1BCBF8245F67C300AB1E0B /* MarvelHeroes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A1BCC0D245F67C400AB1E0B /* Build configuration list for PBXNativeTarget "Dragon Riders" */;
+			buildConfigurationList = 8A1BCC0D245F67C400AB1E0B /* Build configuration list for PBXNativeTarget "MarvelHeroes" */;
 			buildPhases = (
 				8A1BCBF5245F67C300AB1E0B /* Sources */,
 				8A1BCBF6245F67C300AB1E0B /* Frameworks */,
@@ -347,11 +347,11 @@
 			);
 			dependencies = (
 			);
-			name = "Dragon Riders";
+			name = MarvelHeroes;
 			packageProductDependencies = (
 			);
 			productName = CatAPIViewer;
-			productReference = 8A1BCBF9245F67C300AB1E0B /* Dragon Riders.app */;
+			productReference = 8A1BCBF9245F67C300AB1E0B /* MarvelHeroes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -374,7 +374,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8A1BCBF4245F67C300AB1E0B /* Build configuration list for PBXProject "DragonRides" */;
+			buildConfigurationList = 8A1BCBF4245F67C300AB1E0B /* Build configuration list for PBXProject "MarvelHeroes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -389,8 +389,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A1BCBF8245F67C300AB1E0B /* Dragon Riders */,
-				866AECD727D415F50021CCF0 /* Dragon RidersTests */,
+				8A1BCBF8245F67C300AB1E0B /* MarvelHeroes */,
+				866AECD727D415F50021CCF0 /* MarvelHeroesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -460,7 +460,7 @@
 /* Begin PBXTargetDependency section */
 		866AECDD27D415F50021CCF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8A1BCBF8245F67C300AB1E0B /* Dragon Riders */;
+			target = 8A1BCBF8245F67C300AB1E0B /* MarvelHeroes */;
 			targetProxy = 866AECDC27D415F50021CCF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -660,7 +660,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.andres.acevedo.Dragon;
+				PRODUCT_BUNDLE_IDENTIFIER = net.andres.acevedo.Marvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -679,7 +679,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.andres.acevedo.Dragon;
+				PRODUCT_BUNDLE_IDENTIFIER = net.andres.acevedo.Marvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -689,7 +689,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		866AECDE27D415F50021CCF0 /* Build configuration list for PBXNativeTarget "Dragon RidersTests" */ = {
+		866AECDE27D415F50021CCF0 /* Build configuration list for PBXNativeTarget "MarvelHeroesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				866AECDF27D415F50021CCF0 /* Debug */,
@@ -698,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A1BCBF4245F67C300AB1E0B /* Build configuration list for PBXProject "DragonRides" */ = {
+		8A1BCBF4245F67C300AB1E0B /* Build configuration list for PBXProject "MarvelHeroes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A1BCC0B245F67C400AB1E0B /* Debug */,
@@ -707,7 +707,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A1BCC0D245F67C400AB1E0B /* Build configuration list for PBXNativeTarget "Dragon Riders" */ = {
+		8A1BCC0D245F67C400AB1E0B /* Build configuration list for PBXNativeTarget "MarvelHeroes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A1BCC0E245F67C400AB1E0B /* Debug */,

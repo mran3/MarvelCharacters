@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8A1BCBF8245F67C300AB1E0B"
                BuildableName = "Dragon Riders.app"
-               BlueprintName = "Dragon Riders"
-               ReferencedContainer = "container:DragonRides.xcodeproj">
+               BlueprintName = "MarvelHeroes"
+               ReferencedContainer = "container:MarvelHeroes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,17 +36,17 @@
                BlueprintIdentifier = "86AB609527A06F2800052A38"
                BuildableName = "Dragon Riders UnitTests.xctest"
                BlueprintName = "Dragon Riders UnitTests"
-               ReferencedContainer = "container:DragonRides.xcodeproj">
+               ReferencedContainer = "container:MarvelHeroes.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "866AECC827D3FA8C0021CCF0"
+               BlueprintIdentifier = "866AECD727D415F50021CCF0"
                BuildableName = "Dragon RidersTests.xctest"
-               BlueprintName = "Dragon RidersTests"
-               ReferencedContainer = "container:DragonRides.xcodeproj">
+               BlueprintName = "MarvelHeroesTests"
+               ReferencedContainer = "container:MarvelHeroes.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -67,8 +67,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8A1BCBF8245F67C300AB1E0B"
             BuildableName = "Dragon Riders.app"
-            BlueprintName = "Dragon Riders"
-            ReferencedContainer = "container:DragonRides.xcodeproj">
+            BlueprintName = "MarvelHeroes"
+            ReferencedContainer = "container:MarvelHeroes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -84,8 +84,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8A1BCBF8245F67C300AB1E0B"
             BuildableName = "Dragon Riders.app"
-            BlueprintName = "Dragon Riders"
-            ReferencedContainer = "container:DragonRides.xcodeproj">
+            BlueprintName = "MarvelHeroes"
+            ReferencedContainer = "container:MarvelHeroes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
