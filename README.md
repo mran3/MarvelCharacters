@@ -1,33 +1,47 @@
-# Dragon Rides!
+# Marvel Character Finder!
 
-Imagine a place where dragons are our friends and help us to travel across the kingdom!
-Even in such a magical place, we need an app to helping us find Dragon Rides.
+<p><i>When the universe is in danger, many heroes appear, but you need to assign the right one for the job. Marvel Character Finder allows you to do just that. Many universes will thank you!</i></p>
 
+<ul>
+<li>Have you ever lost a universe for sending the wrong superhero?</li>
+<li>Do you keep wondering if some hero is from DC Comics?</li>
+<li>Never remember if some hero uses cape or not?</li>
+<li>Get confused with villains that have cute names?</li>
+</ul>
+  
+<p align="center">
+    <img width="25%" src="readme_imgs/frustrated.jpg">
+<p>
 
-## Let's add Unit Tests to this project
+<h2>Say Goodbye to your Marvel information problems!</i> 👋🏼</h2>
+<p>Let the Marvel Character Finder save your world! (Or even your universe)</p>
 
-
-## This project showcases
-- Model View Presenter Architecture.
-- REST API Request with URL Session (No external libraries).
-- Swift 5.
-- Getting current location with CoreLocation.
-- TableView grouped by sections.
-- Programmatic UI (No storyboards.)
+## Marvel Character Finder! Technical Features 🤓
+- Master and Detail view.
+- Use of MVP Pattern to avoid massive ViewControllers with a lot of responsabilities.
+- REST requests with API Key authentication.
+- Programmatic definition of views.
+- Swift 5 (The best and the newest for our valued customers)
+- Table view with autoresizing rows
 - Unit Tests.
+- Localizable strings.
+- A readme with silly jokes.
 
-## Passing unit tests
+
+## Teaser (ESBR Rating Pending)
 <p align="center">
-    <img width="45%" src="tests.png" />
-</p>
+    <img src="readme_imgs/demo.gif">
+<p>
 
-## Screenshot of the example app
+## Testimonials
 <p align="center">
-    <img width="30%" src="screenshot.png" />
-</p>
-
-## Tutorial
-You can read the related tutorial on: <a href="https://www.turtle-techies.com/adding-unit-tests-to-an-ios-mvp-project-in-swift/">Turtle Techies</a>
-
+    <img src="readme_imgs/lady.jpeg">
+<p>
+<p align="center"><i>I command you to use the Marvel Hero Finder</i> </p>
 ## Author
+
 Andrés Acevedo is an iOS developer from Colombia with more than 10 years of experience developing awesome apps.
+
+<ul>
+<li><a href="https://acetips.medium.com/">Tips and lifehacks</a> </li>
+</ul>
