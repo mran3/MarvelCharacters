@@ -35,9 +35,10 @@
 
 ## Testimonials
 <p align="center">
-    <img src="readme_imgs/lady.jpeg">
+    <img src="readme_imgs/thanos.png">
 <p>
-<p align="center"><i>I command you to use the Marvel Hero Finder</i> </p>
+<p align="center"><i>I dare you to use the Marvel Character Finder!</i> </p>
+
 ## Author
 
 Andrés Acevedo is an iOS developer from Colombia with more than 10 years of experience developing awesome apps.
