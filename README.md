@@ -30,7 +30,7 @@
 
 ## Teaser (ESBR Rating Pending)
 <p align="center">
-    <img src="readme_imgs/demo.gif">
+    <img width="35%" src="readme_imgs/demo2.gif">
 <p>
 
 ## Testimonials
