@@ -35,7 +35,7 @@
 
 ## Testimonials
 <p align="center">
-    <img src="readme_imgs/thanos.png">
+    <img width="40%" src="readme_imgs/thanos.png">
 <p>
 <p align="center"><i>I dare you to use the Marvel Character Finder!</i> </p>
 
