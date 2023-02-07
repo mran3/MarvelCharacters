@@ -15,9 +15,11 @@ protocol ListCharactersView: AnyObject {
 
 class ListCharactersViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, ListCharactersView {
     private(set) var tableView = UITableView()
+    private var searchView = UISearchBar()
     private var activityIndicator = UIActivityIndicatorView()
     private var valueToPass: String?
     private(set) var characters: [CharacterResult] = []
+    var filteredCharacters: [CharacterResult] = []
     public var presenter: ListCharactersPresenterProtocol = ListCharactersPresenter()
     private let heightRow: CGFloat = 50.0
     
@@ -26,12 +28,13 @@ class ListCharactersViewController: UIViewController, UITableViewDataSource, UIT
         super.viewDidLoad()
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        let searchController = UISearchController(searchResultsController: nil)
+        searchController.searchResultsUpdater = self
+        navigationItem.searchController = searchController
+        definesPresentationContext = true
         requestInfo()
     }
     
-    // This is a simple view so decided to set the constraints here.
-    // For bigger projects, one can extract this information in other
-    // function or even other files.
     override func loadView() {
         super.loadView()
         self.title = "Marvel Characters"
@@ -46,6 +49,8 @@ class ListCharactersViewController: UIViewController, UITableViewDataSource, UIT
         setUpConstraints()
     }
     
+    // This is a simple view so I decided to set the constraints here.
+    // For more complex views, one can extract this information in other file.
     func setUpConstraints(){
         // Table view constraints
         tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -87,18 +92,18 @@ class ListCharactersViewController: UIViewController, UITableViewDataSource, UIT
     // MARK: - Table view data source
     
     func numberOfSections(in tableView: UITableView) -> Int {
-           return 1
+       return 1
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.characters.count
+        return self.filteredCharacters.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-          let cell = tableView.dequeueReusableCell(withIdentifier: "CellProduct", for: indexPath)
-        cell.textLabel?.text = self.characters[indexPath.row].name
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CellProduct", for: indexPath)
+        cell.textLabel?.text = self.filteredCharacters[indexPath.row].name
         cell.backgroundColor = .clear
-          return cell
+        return cell
       }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -113,12 +118,11 @@ class ListCharactersViewController: UIViewController, UITableViewDataSource, UIT
     
     func charactersLoaded(characters: [CharacterResult]) {
         self.characters = characters
+        self.filteredCharacters = characters
         self.hideIndicator()
 
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }
-
-        
     }    
 }

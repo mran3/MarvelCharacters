@@ -95,7 +95,8 @@ extension CharacterData {
 // MARK: - CharacterResult
 struct CharacterResult: Codable {
     let id: Int?
-    let name, description: String?
+    let name: String?
+    let description: String?
     let thumbnail: CharacterThumbnail?
     let resourceURI: String?
     let comics, series: CharacterComics?
