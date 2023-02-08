@@ -10,8 +10,8 @@ import Foundation
 @testable import MarvelHeroes
 
 class MockURLSession: URLSessionProtocol {
-    private (set) var lastURL: URL?
-    private (set) var nextDataTask: MockURLSessionDataTask!
+    var lastURL: URL?
+    var nextDataTask: MockURLSessionDataTask!
     
     func dataTaskWithUrl(with url: URL, completionHandler: @escaping DataTaskResult) -> URLSessionDataTaskProtocol {
         lastURL = url
@@ -22,7 +22,7 @@ class MockURLSession: URLSessionProtocol {
 }
 
 class MockURLSessionDataTask: URLSessionDataTaskProtocol {
-    private (set) var resumeWasCalled = false
+    var resumeWasCalled = false
     
     func resume() {
         resumeWasCalled = true

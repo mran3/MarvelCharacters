@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Marvel Characters
+
+  Created by Andres Acevedo on 19/02/22.
+  Copyright © 2022 Andrés A. All rights reserved.
+*/
+
+"api.error" = "Information could not be retrieved from the server.";
+"no.description" = "Our robots are traversing the multiverse in search for this description...";
+"general.ok" = "Ok";
+"general.error" = "Error";

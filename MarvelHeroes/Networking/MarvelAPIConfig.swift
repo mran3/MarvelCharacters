@@ -33,13 +33,13 @@ extension URLComponents {
 
 enum MarvelTarget: Target {
     case listCharacters
-    case rideDetails(Int)
+    case characterDetails(id: Int)
     
     var path: String {
         switch self {
         case .listCharacters:
             return "/v1/public/characters"
-        case let .rideDetails(id):
+        case let .characterDetails(id):
             return "detail/\(id)/"
         }
     }
@@ -51,7 +51,7 @@ enum MarvelTarget: Target {
         addKey(parameters: &mutableParameters)
         urlComponents.setQueryItems(with: mutableParameters)
         guard let url = urlComponents.url else {
-            print("Error create url")
+            print("Error creating url")
             return nil
         }
         return url
@@ -63,7 +63,7 @@ enum MarvelTarget: Target {
     func addKey(parameters: inout [String: String]) {
         parameters["ts"] = "1234"
         parameters["hash"] = "80dac65a1a0bc0cd23fc6d2e481f892a"
-        parameters["apikey"] = "62252a46c2fab975fa19384bf3d86da9"
+        parameters["apikey"] = "62252a46c2fab975fa19384bf3d86da9" // In a real world application, this won't be on version control system.
     }
     
 }

@@ -55,6 +55,7 @@ class Fetcher {
                 let decodedData:T = try jsonDecoder.decode(T.self, from: data)
                 completion(.success(decodedData))
             } catch {
+                print(error)
                 completion(.failure(DataError.decodingError))
             }
         } else {
@@ -62,7 +63,7 @@ class Fetcher {
         }
     }
     
-    func fetchImage(from urlString: String, completion: @escaping FetchResultCallback<UIImage?>) {
+    func fetchImage(from urlString: String, completion: @escaping FetchResultCallback<UIImage>) {
         guard let url = URL(string: urlString) else {
             print("Error: Cannot create URL from string")
             return
@@ -71,7 +72,7 @@ class Fetcher {
     }
     
 
-    func fetchImage(from url:URL, completion: @escaping FetchResultCallback<UIImage?>) {
+    func fetchImage(from url:URL, completion: @escaping FetchResultCallback<UIImage>) {
         if let cachedImage = imageCache.object(forKey: url.absoluteString as NSString) {
             completion(.success(cachedImage))
         } else {

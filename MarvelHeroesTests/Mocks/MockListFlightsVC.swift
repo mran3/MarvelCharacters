@@ -18,7 +18,7 @@ class MockListCharactersVC: ListCharactersView {
         charactersLoadedCalled = true
     }
     
-    func presentErrorMsg(messageText: String) {
+    func presentErrorMessage(messageText: String) {
         presentErrorMsgCalled = true
     }
     

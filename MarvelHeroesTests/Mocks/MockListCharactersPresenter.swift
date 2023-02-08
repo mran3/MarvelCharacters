@@ -29,10 +29,10 @@ class MockCharactersPresenter: ListCharactersPresenter {
                 } else {
                     print(error.localizedDescription)
                 }
-                self.listCharactersView?.presentErrorMsg(messageText: NSLocalizedString("api.error", comment: ""))
+                self.view?.presentErrorMessage(messageText: NSLocalizedString("api.error", comment: ""))
             case .success(let response):
                 if let characters:[CharacterResult] = response.data?.results {
-                    self.listCharactersView?.charactersLoaded(characters: characters)
+                    self.view?.charactersLoaded(characters: characters)
                 }                
             }
 
