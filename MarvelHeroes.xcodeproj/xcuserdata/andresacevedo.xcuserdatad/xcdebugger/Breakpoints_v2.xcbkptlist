@@ -210,6 +210,38 @@
             endingLineNumber = "59"
             landmarkName = "decodeJson(data:completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1ACCA827-BDAB-4727-B323-6B2277C35649 - 118daf021375b3b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelHeroes.Fetcher.decodeJson&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(data: Swift.Optional&lt;Foundation.Data&gt;, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MarvelHeroes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andresacevedo/iOS/MarvelCharacters/MarvelHeroes/Networking/Fetcher.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1457">
+               </Location>
+               <Location
+                  uuid = "1ACCA827-BDAB-4727-B323-6B2277C35649 - 6316787e71769856"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelHeroesTests.Fetcher.decodeJson&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(data: Swift.Optional&lt;Foundation.Data&gt;, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MarvelHeroesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andresacevedo/iOS/MarvelCharacters/MarvelHeroes/Networking/Fetcher.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1457">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -225,6 +257,166 @@
             startingLineNumber = "62"
             endingLineNumber = "62"
             landmarkName = "decodeJson(data:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4C3EE59-37F2-4B9B-9C78-D86C25F4298C - 118daf021375b356"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelHeroes.Fetcher.decodeJson&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(data: Swift.Optional&lt;Foundation.Data&gt;, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MarvelHeroes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andresacevedo/iOS/MarvelCharacters/MarvelHeroes/Networking/Fetcher.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "952">
+               </Location>
+               <Location
+                  uuid = "A4C3EE59-37F2-4B9B-9C78-D86C25F4298C - 6316787e717698b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelHeroesTests.Fetcher.decodeJson&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(data: Swift.Optional&lt;Foundation.Data&gt;, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MarvelHeroesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andresacevedo/iOS/MarvelCharacters/MarvelHeroes/Networking/Fetcher.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "952">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70E5A112-4828-4E9F-A4BB-0F5264188634"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelHeroesTests/Mocks/MockListCharactersPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getCharacters()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C4597A9-B59F-4FDE-BC89-A4BD45133F6C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelHeroes/MVP/Presenters/ListCharacters/ListCharactersPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getCharacters()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2C4597A9-B59F-4FDE-BC89-A4BD45133F6C - 8a9f45929a925108"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MarvelHeroes.CharacterResponse, Swift.Error&gt;) -&gt; () in MarvelHeroes.ListCharactersPresenter.getCharacters() -&gt; ()"
+                  moduleName = "MarvelHeroes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andresacevedo/iOS/MarvelCharacters/MarvelHeroes/MVP/Presenters/ListCharacters/ListCharactersPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "725">
+               </Location>
+               <Location
+                  uuid = "2C4597A9-B59F-4FDE-BC89-A4BD45133F6C - be1afd6676ad023a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MarvelHeroesTests.CharacterResponse, Swift.Error&gt;) -&gt; () in MarvelHeroesTests.ListCharactersPresenter.getCharacters() -&gt; ()"
+                  moduleName = "MarvelHeroesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andresacevedo/iOS/MarvelCharacters/MarvelHeroes/MVP/Presenters/ListCharacters/ListCharactersPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "725">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23AB785E-7872-4893-808D-B7A535C8900E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelHeroes/MVP/Presenters/ListCharacters/ListCharactersPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getCharacters()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "23AB785E-7872-4893-808D-B7A535C8900E - 8a9f45929a9250c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MarvelHeroes.CharacterResponse, Swift.Error&gt;) -&gt; () in MarvelHeroes.ListCharactersPresenter.getCharacters() -&gt; ()"
+                  moduleName = "MarvelHeroes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andresacevedo/iOS/MarvelCharacters/MarvelHeroes/MVP/Presenters/ListCharacters/ListCharactersPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "278">
+               </Location>
+               <Location
+                  uuid = "23AB785E-7872-4893-808D-B7A535C8900E - be1afd6676ad03f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MarvelHeroesTests.CharacterResponse, Swift.Error&gt;) -&gt; () in MarvelHeroesTests.ListCharactersPresenter.getCharacters() -&gt; ()"
+                  moduleName = "MarvelHeroesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andresacevedo/iOS/MarvelCharacters/MarvelHeroes/MVP/Presenters/ListCharacters/ListCharactersPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "278">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B5AA908-62E3-4877-9BC6-D94DA709383E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelHeroesTests/Views/ListCharacterTests/ListCharactersPresenterUnitTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "testFailingServiceTest()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
